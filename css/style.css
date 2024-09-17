@@ -1,0 +1,28 @@
+.stopwatch {
+    text-align: center;
+    margin: 50px auto;
+}
+#timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+button{
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    border: none;
+    padding: 20px 17px;
+    margin: 20px;
+    cursor: pointer;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  button:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;;
+  }
+  
+#laps {
+    margin-top: 20px;
+}
+.lap {
+    margin: 5px 0;
+}
